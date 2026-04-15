@@ -1,0 +1,100 @@
+.panel {
+  padding: 12px 16px;
+  background: #fff;
+  margin: 8px 16px;
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+}
+
+.heading {
+  font-size: 12px;
+  font-weight: 800;
+  color: #8E8175;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.ageButtonGroup {
+  display: flex;
+  gap: 0;
+  margin-bottom: 14px;
+  background: #F5F0EB;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.ageButton {
+  flex: 1;
+  border: none;
+  padding: 9px 4px;
+  font-size: 13px;
+  font-weight: 700;
+  transition: all 0.15s;
+}
+
+.ageButton.active {
+  background: #E8856C;
+  color: #fff;
+}
+
+.ageButton.inactive {
+  background: transparent;
+  color: #5D4E3A;
+}
+
+.buttonGroup {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin-bottom: 14px;
+}
+
+.buttonGroup:last-child {
+  margin-bottom: 0;
+}
+
+.catButton {
+  border: none;
+  border-radius: 20px;
+  padding: 6px 12px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.catButton.allActive {
+  background: #2D8B7D;
+  color: #fff;
+}
+
+.catButton.allInactive {
+  background: #F5F0EB;
+  color: #5D4E3A;
+}
+
+.catButton.active {
+  background: #E8D5B7;
+  color: #5D4E3A;
+}
+
+.catButton.inactive {
+  background: #F5F0EB;
+  color: #8E8175;
+}
+
+.catCount {
+  opacity: 0.5;
+}
+
+.costButton {
+  border: none;
+  border-radius: 20px;
+  padding: 6px 12px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.costButton.inactive {
+  background: #F5F0EB;
+  color: #5D4E3A;
+}

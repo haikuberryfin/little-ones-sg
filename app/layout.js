@@ -1,3 +1,5 @@
+import './globals.css';
+
 export const metadata = {
   title: 'Little Ones SG',
   description: 'Free resource library for parents of children ages 0-6 in Singapore. Browse curated learning resources, enrichment centres, playgrounds and more.',
@@ -24,7 +26,7 @@ export default function RootLayout({ children }) {
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
       </head>
-      <body style={{ margin: 0, padding: 0, background: '#FBF8F4' }}>
+      <body>
         {children}
       </body>
     </html>

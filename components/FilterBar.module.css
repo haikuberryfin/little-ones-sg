@@ -1,0 +1,95 @@
+.filterBar {
+  padding: 10px 16px 0;
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.toggleButton {
+  border: 1.5px solid #2D8B7D;
+  border-radius: 20px;
+  padding: 6px 14px;
+  font-size: 13px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: all 0.2s ease;
+}
+
+.toggleButton.inactive {
+  background: #fff;
+  color: #2D8B7D;
+}
+
+.toggleButton.active {
+  background: #2D8B7D;
+  color: #fff;
+}
+
+.badge {
+  border-radius: 10px;
+  padding: 1px 6px;
+  font-size: 11px;
+}
+
+.toggleButton.inactive .badge {
+  background: #2D8B7D;
+  color: #fff;
+}
+
+.toggleButton.active .badge {
+  background: rgba(255, 255, 255, 0.3);
+  color: #fff;
+}
+
+.clearButton {
+  background: #FFF0EB;
+  color: #C4727A;
+  border: 1px solid #E8C4BD;
+  border-radius: 20px;
+  padding: 6px 12px;
+  font-size: 12px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.filterTag {
+  border-radius: 20px;
+  padding: 5px 10px;
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  max-width: 160px;
+}
+
+.filterTagText {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.tagAge {
+  background: #E8856C;
+  color: #fff;
+}
+
+.tagCat {
+  background: #E8D5B7;
+  color: #5D4E3A;
+}
+
+.tagCost {
+  color: #fff;
+}
+
+.icon {
+  width: 14px;
+  height: 14px;
+}
